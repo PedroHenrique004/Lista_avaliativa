@@ -4,9 +4,6 @@ int main() {
     int num;
     int soma = 0;
     
-
-
-    printf("Digite um numero inteiro positivo: ");
     scanf("%d", &num);
 
 
@@ -23,7 +20,7 @@ int main() {
         numero /= 10; 
     }
 
-    printf("A soma dos algorismos de %d eh %d\n",num, soma);
+    printf("A soma dos algarismos de %d eh %d\n",num, soma);
 
     return 0;
 }
