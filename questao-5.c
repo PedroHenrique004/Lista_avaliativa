@@ -23,10 +23,14 @@ int main() {
                 menor = num1;
             }
 
-            if(maior % menor != 0){
+            if (menor == 0){
                 printf("%d nao eh multiplo de %d\n", maior, menor);
             }
-            else{
+
+            else if(maior % menor != 0){
+                printf("%d nao eh multiplo de %d\n", maior, menor);
+            }
+            else {
                 printf("%d eh multiplo de %d\n", maior, menor);
             }
         }
